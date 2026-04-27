@@ -1,38 +1,37 @@
-# vue-state-management
+# Vue 3 State Management Mastery 🚀
 
-This template should help get you started developing with Vue 3 in Vite.
+Proyek ini mendemonstrasikan berbagai cara mengelola data (state) di Vue 3 agar komponen yang bersarang (nested) dapat saling berkomunikasi dengan efisien.
 
-## Recommended IDE Setup
+## 🧠 Materi yang Dipelajari
+- **Ref vs Reactive**: Penggunaan reaktivitas data yang tepat.
+- **Prop Drilling Analysis**: Memahami batasan pengiriman data manual antar komponen.
+- **Provide & Inject**: Solusi bawaan Vue untuk menghindari Prop Drilling sederhana.
+- **Pinia (Global State)**: Standar industri untuk state management skala besar.
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 🛠 Tech Stack & Tools
+- **Framework**: Vue 3 (Composition API)
+- **State Management**: Pinia
+- **Build Tool**: Vite
+- **API**: MockAPI / JSON Server
+- **IDE**: VS Code + Vue - Official (Volar)
 
-## Recommended Browser Setup
+## 🚀 Memulai Project (Project Setup)
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+Pastikan Anda sudah menginstal [Node.js](https://nodejs.org/).
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
+1. **Instalasi Dependency:**
+   ```sh
+   npm install
+Menjalankan Server Development:
+code
+Sh
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+Menjalankan Mock Server (Jika ada):
+code
+Sh
+npx json-server db.json
+📂 Struktur Komponen Demo
+Parent Component
+Child Component
+Grand Child Component
+Great Grand Child Component (Penerima State)
