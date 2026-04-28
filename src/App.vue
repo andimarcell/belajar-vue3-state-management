@@ -1,7 +1,9 @@
 <script setup>
-import { ref } from 'vue';
+import { provide, ref } from 'vue';
 import Parent from './components/Parent.vue';
 const numbers = ref([1, 2, 3, 4, 5]);
+
+provide('numbers', numbers);
 
 // import { reactive, ref } from "vue";
 
@@ -55,7 +57,7 @@ const numbers = ref([1, 2, 3, 4, 5]);
       <input type="number" placeholder="blue" v-model="color.blue" id="" />
       <button @click="generateColor()">Generate</button>
     </div> -->
-  <Parent :numbers="numbers"/>
+  <Parent/>
 
   </main>
 </template>

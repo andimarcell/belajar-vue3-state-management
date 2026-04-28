@@ -1,9 +1,11 @@
 <script setup lang="ts">
-const { numbers } = defineProps(['numbers']);
+import { inject } from 'vue';
+
+const numbers = inject('numbers');
 </script>
 <template>
     <div>
         <h1>Great Grand Child</h1>
-        <p>Numbers: {{ numbers }}</p>
+        {{ numbers }}
     </div>
 </template>
