@@ -1,12 +1,14 @@
 <script setup lang="ts">
 import GrandChild from './GrandChild.vue';
+const { numbers } = defineProps(['numbers']);
 
 </script>
 
 <template>
     <div>
         <h1>Child</h1>
+        {{ numbers }}
         <div class="line"></div>
-        <GrandChild />
+        <GrandChild :numbers="numbers"/>
     </div>
 </template>
