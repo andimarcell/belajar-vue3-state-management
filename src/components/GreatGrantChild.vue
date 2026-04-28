@@ -1,7 +1,9 @@
 <script setup lang="ts">
-import { inject } from 'vue';
+// import { inject } from 'vue';
+import { useNumbers } from '@/stores/numbers';
 
-const numbers = inject('numbers');
+const { numbers } = useNumbers();
+// const numbers = inject('numbers');
 </script>
 <template>
     <div>
