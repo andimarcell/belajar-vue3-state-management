@@ -33,5 +33,4 @@ npx json-server db.json
 📂 Struktur Komponen Demo
 Parent Component
 Child Component
-Grand Child Component
-Great Grand Child Component (Penerima State)
+Grand Child Component 
