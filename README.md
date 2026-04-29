@@ -22,15 +22,15 @@ Pastikan Anda sudah menginstal [Node.js](https://nodejs.org/).
 1. **Instalasi Dependency:**
    ```sh
    npm install
-Menjalankan Server Development:
-code
-Sh
-npm run dev
-Menjalankan Mock Server (Jika ada):
-code
-Sh
-npx json-server db.json
-📂 Struktur Komponen Demo
-Parent Component
-Child Component
-Grand Child Component 
+2. **Menjalankan Server Development:**
+   ```sh
+   npm run dev
+3. **Menjalankan Mock Server (Jika ada):**
+   ```sh
+   npx json-server db.json
+
+## 📂 Struktur Komponen Demo
+- **Parent Component**
+- **Child Component**
+- **Grand Child Component**
+- **Great Grant Child Component**
